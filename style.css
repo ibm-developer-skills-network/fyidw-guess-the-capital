@@ -1,0 +1,34 @@
+.question-box{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#main-h{
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.btn-outline-dark:hover .dot{
+    border-color: white;
+}
+.ans-box{
+
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.correct-ans{
+    background: lightgreen!important;
+    border-color: lightgreen!important;
+}
+.wrong-ans{
+    background-color: red!important;
+    border-color: red!important;
+}
+.question{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
